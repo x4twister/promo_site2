@@ -9,8 +9,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   mode: 'development',
   entry: {
-    index: ['@babel/polyfill', './index.js'],
-    analytics: './analytics.js'
+    index: ['@babel/polyfill', './index.js']
   },
   output: {
     filename: '[name].[hash].js',
